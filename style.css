@@ -26,7 +26,8 @@ i {
 	color: #fff;
 }
 .navbar-mainbg{
-	background-color: #bd2130;
+	background-color: #099268;
+
 	padding: 0px;
 }
 #navbarSupportedContent{
@@ -45,7 +46,7 @@ i {
 	float: left;
 }
 #navbarSupportedContent ul li a{
-	color: rgba(255,255,255,0.5);
+	color: white;
     text-decoration: none;
     font-size: 15px;
     display: block;
@@ -55,7 +56,7 @@ i {
     position: relative;
 }
 #navbarSupportedContent>ul>li.active>a{
-	color: #bd2130;
+	color: #099268;
 	background-color: transparent;
 	transition: all 0.7s;
 }
@@ -96,6 +97,7 @@ i {
 	background-color: #fff;
 	bottom: 10px;
 }
+.navbar-logo:hover{color: white;}
 .hori-selector .right{
 	right: -25px;
 }
@@ -109,7 +111,7 @@ i {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #bd2130;
+    background-color: #099268;
 }
 .hori-selector .right:before{
 	bottom: 0;
@@ -138,7 +140,7 @@ i {
 	.navbar-expand-custom .navbar-collapse {
 	    display: -ms-flexbox!important;
 	    display: flex!important;
-	    -ms-flex-preferred-size: auto;
+	    -ms-flex-prefer#099268-size: auto;
 	    flex-basis: auto;
 	}
 }
